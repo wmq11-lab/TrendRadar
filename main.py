@@ -2146,9 +2146,9 @@ def render_feishu_content(
     text_content = ""
 
     if report_data["stats"]:
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n"
         text_content += f"📊 <font color='#1890FF'>**热点词汇统计**</font>\n"
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n\n"
 
     total_count = len(report_data["stats"])
 
@@ -2192,11 +2192,11 @@ def render_feishu_content(
         if text_content and "暂无匹配" not in text_content:
             text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n"
         text_content += (
             f"🆕 <font color='#52C41A'>**本次新增热点新闻**</font> <font color='#8C8C8C'>(共 {report_data['total_new_count']} 条)</font>\n"
         )
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n\n"
 
         for source_data in report_data["new_titles"]:
             text_content += (
@@ -2217,9 +2217,9 @@ def render_feishu_content(
         if text_content and "暂无匹配" not in text_content:
             text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n"
         text_content += "⚠️ <font color='#FF4D4F'>**数据获取失败的平台**</font>\n"
-        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         for i, id_value in enumerate(report_data["failed_ids"], 1):
             text_content += f"  <font color='#8C8C8C'>└─</font> <font color='#FF4D4F'>{id_value}</font>\n"
 
@@ -2345,16 +2345,16 @@ def split_content_into_batches(
 
     base_header = ""
     if format_type == "wework":
-        base_header = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        base_header = f"━━━━━━━━━━━━━━━━━━━━\n"
         base_header += f"📰 **热点监控报告**\n"
-        base_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        base_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         base_header += f"📊 **总新闻数：** **{total_titles}**\n\n"
     elif format_type == "telegram":
         base_header = f"总新闻数： {total_titles}\n\n"
 
     base_footer = ""
     if format_type == "wework":
-        base_footer = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        base_footer = f"\n━━━━━━━━━━━━━━━━━━━━\n"
         base_footer += f"🕐 **更新时间：** {now.strftime('%Y-%m-%d %H:%M:%S')}"
         if update_info:
             base_footer += f"\n🔄 **版本更新：** TrendRadar 发现新版本 **{update_info['remote_version']}**，当前 **{update_info['current_version']}**"
@@ -2366,9 +2366,9 @@ def split_content_into_batches(
     stats_header = ""
     if report_data["stats"]:
         if format_type == "wework":
-            stats_header = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            stats_header = f"━━━━━━━━━━━━━━━━━━━━\n"
             stats_header += f"📊 **热点词汇统计**\n"
-            stats_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+            stats_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             stats_header = f"📊 热点词汇统计\n\n"
 
@@ -2386,9 +2386,9 @@ def split_content_into_batches(
             mode_text = "当前榜单模式下暂无匹配的热点词汇"
         else:
             mode_text = "暂无匹配的热点词汇"
-        simple_content = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        simple_content = f"━━━━━━━━━━━━━━━━━━━━\n"
         simple_content += f"📭 {mode_text}\n"
-        simple_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        simple_content += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         final_content = base_header + simple_content + base_footer
         batches.append(final_content)
         return batches
@@ -2512,7 +2512,7 @@ def split_content_into_batches(
             if i < len(report_data["stats"]) - 1:
                 separator = ""
                 if format_type == "wework":
-                    separator = f"\n────────────────────────────────\n\n"
+                    separator = f"\n────────────────\n\n"
                 elif format_type == "telegram":
                     separator = f"\n\n"
 
@@ -2527,9 +2527,9 @@ def split_content_into_batches(
     if report_data["new_titles"]:
         new_header = ""
         if format_type == "wework":
-            new_header = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            new_header = f"\n━━━━━━━━━━━━━━━━━━━━\n"
             new_header += f"🆕 **本次新增热点新闻** (共 **{report_data['total_new_count']}** 条)\n"
-            new_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+            new_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             new_header = (
                 f"\n\n🆕 本次新增热点新闻 (共 {report_data['total_new_count']} 条)\n\n"
@@ -2631,9 +2631,9 @@ def split_content_into_batches(
     if report_data["failed_ids"]:
         failed_header = ""
         if format_type == "wework":
-            failed_header = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            failed_header = f"\n━━━━━━━━━━━━━━━━━━━━\n"
             failed_header += f"⚠️ **数据获取失败的平台**\n"
-            failed_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+            failed_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             failed_header = f"\n\n⚠️ 数据获取失败的平台：\n\n"
 
