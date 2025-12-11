@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-11T18:35:45.031681+08:00",
-  "total_titles_processed": 1839,
+  "generated_at": "2025-12-11T20:27:04.717005+08:00",
+  "total_titles_processed": 1962,
   "failed_sources": [],
   "trends": [
     {
@@ -59,11 +59,13 @@
           "url": "https://www.zhihu.com/question/1980552349165564560",
           "source": "知乎",
           "ranks": [
-            16
+            16,
+            17,
+            20
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[18时27分 ~ 18时35分]"
+          "appearance_count": 4,
+          "time_info": "[18时27分 ~ 20时27分]"
         },
         {
           "title": "消息人士：Google Play正调整政策，旨在让应用开发者更便捷地将用户引导至其他渠道并自主选择收费模式，但据悉这些调整效果未达预期。",
@@ -228,8 +230,8 @@
             3
           ],
           "is_new": false,
-          "appearance_count": 30,
-          "time_info": "[00时05分 ~ 18时35分]"
+          "appearance_count": 32,
+          "time_info": "[00时05分 ~ 20时27分]"
         }
       ]
     }
