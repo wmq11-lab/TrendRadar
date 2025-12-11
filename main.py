@@ -2146,7 +2146,9 @@ def render_feishu_content(
     text_content = ""
 
     if report_data["stats"]:
-        text_content += f"📊 **热点词汇统计**\n\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        text_content += f"📊 <font color='#1890FF'>**热点词汇统计**</font>\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
     total_count = len(report_data["stats"])
 
@@ -2154,20 +2156,22 @@ def render_feishu_content(
         word = stat["word"]
         count = stat["count"]
 
-        sequence_display = f"<font color='grey'>[{i + 1}/{total_count}]</font>"
+        sequence_display = f"<font color='#8C8C8C'>[{i + 1}/{total_count}]</font>"
 
         if count >= 10:
-            text_content += f"🔥 {sequence_display} **{word}** : <font color='red'>{count}</font> 条\n\n"
+            text_content += f"🔥 {sequence_display} <font color='#FF4D4F'>**{word}**</font> : <font color='#FF4D4F'><strong>{count}</strong></font> 条\n"
         elif count >= 5:
-            text_content += f"📈 {sequence_display} **{word}** : <font color='orange'>{count}</font> 条\n\n"
+            text_content += f"📈 {sequence_display} <font color='#FA8C16'>**{word}**</font> : <font color='#FA8C16'><strong>{count}</strong></font> 条\n"
         else:
-            text_content += f"📌 {sequence_display} **{word}** : {count} 条\n\n"
+            text_content += f"📌 {sequence_display} **{word}** : <font color='#595959'>{count}</font> 条\n"
+
+        text_content += "\n"
 
         for j, title_data in enumerate(stat["titles"], 1):
             formatted_title = format_title_for_platform(
                 "feishu", title_data, show_source=True
             )
-            text_content += f"  {j}. {formatted_title}\n"
+            text_content += f"  <font color='#8C8C8C'>└─</font> {j}. {formatted_title}\n"
 
             if j < len(stat["titles"]):
                 text_content += "\n"
@@ -2188,13 +2192,15 @@ def render_feishu_content(
         if text_content and "暂无匹配" not in text_content:
             text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         text_content += (
-            f"🆕 **本次新增热点新闻** (共 {report_data['total_new_count']} 条)\n\n"
+            f"🆕 <font color='#52C41A'>**本次新增热点新闻**</font> <font color='#8C8C8C'>(共 {report_data['total_new_count']} 条)</font>\n"
         )
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
         for source_data in report_data["new_titles"]:
             text_content += (
-                f"**{source_data['source_name']}** ({len(source_data['titles'])} 条):\n"
+                f"<font color='#1890FF'>**{source_data['source_name']}**</font> <font color='#8C8C8C'>({len(source_data['titles'])} 条)</font>\n"
             )
 
             for j, title_data in enumerate(source_data["titles"], 1):
@@ -2203,7 +2209,7 @@ def render_feishu_content(
                 formatted_title = format_title_for_platform(
                     "feishu", title_data_copy, show_source=False
                 )
-                text_content += f"  {j}. {formatted_title}\n"
+                text_content += f"  <font color='#8C8C8C'>└─</font> {j}. {formatted_title}\n"
 
             text_content += "\n"
 
@@ -2211,17 +2217,20 @@ def render_feishu_content(
         if text_content and "暂无匹配" not in text_content:
             text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-        text_content += "⚠️ **数据获取失败的平台：**\n\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        text_content += "⚠️ <font color='#FF4D4F'>**数据获取失败的平台**</font>\n"
+        text_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         for i, id_value in enumerate(report_data["failed_ids"], 1):
-            text_content += f"  • <font color='red'>{id_value}</font>\n"
+            text_content += f"  <font color='#8C8C8C'>└─</font> <font color='#FF4D4F'>{id_value}</font>\n"
 
     now = get_beijing_time()
+    text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n"
     text_content += (
-        f"\n\n<font color='grey'>更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}</font>"
+        f"<font color='#8C8C8C'>🕐 更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}</font>"
     )
 
     if update_info:
-        text_content += f"\n<font color='grey'>TrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}</font>"
+        text_content += f"\n<font color='#FA8C16'>🔄 TrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}</font>"
 
     return text_content
 
@@ -2336,15 +2345,19 @@ def split_content_into_batches(
 
     base_header = ""
     if format_type == "wework":
-        base_header = f"**总新闻数：** {total_titles}\n\n\n\n"
+        base_header = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        base_header += f"📰 **热点监控报告**\n"
+        base_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        base_header += f"📊 **总新闻数：** **{total_titles}**\n\n"
     elif format_type == "telegram":
         base_header = f"总新闻数： {total_titles}\n\n"
 
     base_footer = ""
     if format_type == "wework":
-        base_footer = f"\n\n\n> 更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
+        base_footer = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        base_footer += f"🕐 **更新时间：** {now.strftime('%Y-%m-%d %H:%M:%S')}"
         if update_info:
-            base_footer += f"\n> TrendRadar 发现新版本 **{update_info['remote_version']}**，当前 **{update_info['current_version']}**"
+            base_footer += f"\n🔄 **版本更新：** TrendRadar 发现新版本 **{update_info['remote_version']}**，当前 **{update_info['current_version']}**"
     elif format_type == "telegram":
         base_footer = f"\n\n更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
         if update_info:
@@ -2353,7 +2366,9 @@ def split_content_into_batches(
     stats_header = ""
     if report_data["stats"]:
         if format_type == "wework":
-            stats_header = f"📊 **热点词汇统计**\n\n"
+            stats_header = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            stats_header += f"📊 **热点词汇统计**\n"
+            stats_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             stats_header = f"📊 热点词汇统计\n\n"
 
@@ -2371,7 +2386,9 @@ def split_content_into_batches(
             mode_text = "当前榜单模式下暂无匹配的热点词汇"
         else:
             mode_text = "暂无匹配的热点词汇"
-        simple_content = f"📭 {mode_text}\n\n"
+        simple_content = f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        simple_content += f"📭 {mode_text}\n"
+        simple_content += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         final_content = base_header + simple_content + base_footer
         batches.append(final_content)
         return batches
@@ -2405,14 +2422,15 @@ def split_content_into_batches(
             if format_type == "wework":
                 if count >= 10:
                     word_header = (
-                        f"🔥 {sequence_display} **{word}** : **{count}** 条\n\n"
+                        f"🔥 {sequence_display} **{word}** : **{count}** 条\n"
                     )
                 elif count >= 5:
                     word_header = (
-                        f"📈 {sequence_display} **{word}** : **{count}** 条\n\n"
+                        f"📈 {sequence_display} **{word}** : **{count}** 条\n"
                     )
                 else:
-                    word_header = f"📌 {sequence_display} **{word}** : {count} 条\n\n"
+                    word_header = f"📌 {sequence_display} **{word}** : {count} 条\n"
+                word_header += "\n"
             elif format_type == "telegram":
                 if count >= 10:
                     word_header = f"🔥 {sequence_display} {word} : {count} 条\n\n"
@@ -2436,7 +2454,7 @@ def split_content_into_batches(
                 else:
                     formatted_title = f"{first_title_data['title']}"
 
-                first_news_line = f"  1. {formatted_title}\n"
+                first_news_line = f"  └─ 1. {formatted_title}\n"
                 if len(stat["titles"]) > 1:
                     first_news_line += "\n"
 
@@ -2473,7 +2491,7 @@ def split_content_into_batches(
                 else:
                     formatted_title = f"{title_data['title']}"
 
-                news_line = f"  {j + 1}. {formatted_title}\n"
+                news_line = f"  └─ {j + 1}. {formatted_title}\n"
                 if j < len(stat["titles"]) - 1:
                     news_line += "\n"
 
@@ -2494,7 +2512,7 @@ def split_content_into_batches(
             if i < len(report_data["stats"]) - 1:
                 separator = ""
                 if format_type == "wework":
-                    separator = f"\n\n\n\n"
+                    separator = f"\n────────────────────────────────\n\n"
                 elif format_type == "telegram":
                     separator = f"\n\n"
 
@@ -2509,7 +2527,9 @@ def split_content_into_batches(
     if report_data["new_titles"]:
         new_header = ""
         if format_type == "wework":
-            new_header = f"\n\n\n\n🆕 **本次新增热点新闻** (共 {report_data['total_new_count']} 条)\n\n"
+            new_header = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            new_header += f"🆕 **本次新增热点新闻** (共 **{report_data['total_new_count']}** 条)\n"
+            new_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             new_header = (
                 f"\n\n🆕 本次新增热点新闻 (共 {report_data['total_new_count']} 条)\n\n"
@@ -2532,7 +2552,7 @@ def split_content_into_batches(
         for source_data in report_data["new_titles"]:
             source_header = ""
             if format_type == "wework":
-                source_header = f"**{source_data['source_name']}** ({len(source_data['titles'])} 条):\n\n"
+                source_header = f"📌 **{source_data['source_name']}** ({len(source_data['titles'])} 条)\n\n"
             elif format_type == "telegram":
                 source_header = f"{source_data['source_name']} ({len(source_data['titles'])} 条):\n\n"
 
@@ -2554,7 +2574,7 @@ def split_content_into_batches(
                 else:
                     formatted_title = f"{title_data_copy['title']}"
 
-                first_news_line = f"  1. {formatted_title}\n"
+                first_news_line = f"  └─ 1. {formatted_title}\n"
 
             # 原子性检查：来源标题+第一条新闻
             source_with_first_news = source_header + first_news_line
@@ -2591,7 +2611,7 @@ def split_content_into_batches(
                 else:
                     formatted_title = f"{title_data_copy['title']}"
 
-                news_line = f"  {j + 1}. {formatted_title}\n"
+                news_line = f"  └─ {j + 1}. {formatted_title}\n"
 
                 test_content = current_batch + news_line
                 if (
@@ -2611,7 +2631,9 @@ def split_content_into_batches(
     if report_data["failed_ids"]:
         failed_header = ""
         if format_type == "wework":
-            failed_header = f"\n\n\n\n⚠️ **数据获取失败的平台：**\n\n"
+            failed_header = f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            failed_header += f"⚠️ **数据获取失败的平台**\n"
+            failed_header += f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             failed_header = f"\n\n⚠️ 数据获取失败的平台：\n\n"
 
@@ -2629,7 +2651,7 @@ def split_content_into_batches(
             current_batch_has_content = True
 
         for i, id_value in enumerate(report_data["failed_ids"], 1):
-            failed_line = f"  • {id_value}\n"
+            failed_line = f"  └─ ⚠️ **{id_value}**\n"
             test_content = current_batch + failed_line
             if (
                     len(test_content.encode("utf-8")) + len(base_footer.encode("utf-8"))
