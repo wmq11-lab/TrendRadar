@@ -2346,9 +2346,10 @@ def split_content_into_batches(
     base_header = ""
     if format_type == "wework":
         base_header = f"━━━━━━━━━━━━━━━━━━━━\n"
-        base_header += f"📰 **热点监控报告**\n"
+        base_header += f"🐶 **汪汪！热点监控报告来啦~**\n"
         base_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
-        base_header += f"📊 **总新闻数：** **{total_titles}**\n\n"
+        base_header += f"📊 **总新闻数：** **{total_titles}** 条\n"
+        base_header += f"（小狗狗帮你整理好了呢~）\n\n"
     elif format_type == "telegram":
         base_header = f"总新闻数： {total_titles}\n\n"
 
@@ -2358,6 +2359,7 @@ def split_content_into_batches(
         base_footer += f"🕐 **更新时间：** {now.strftime('%Y-%m-%d %H:%M:%S')}"
         if update_info:
             base_footer += f"\n🔄 **版本更新：** TrendRadar 发现新版本 **{update_info['remote_version']}**，当前 **{update_info['current_version']}**"
+        base_footer += f"\n\n🐶 **小狗狗报告完毕！下次见~汪汪！**"
     elif format_type == "telegram":
         base_footer = f"\n\n更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
         if update_info:
@@ -2367,7 +2369,7 @@ def split_content_into_batches(
     if report_data["stats"]:
         if format_type == "wework":
             stats_header = f"━━━━━━━━━━━━━━━━━━━━\n"
-            stats_header += f"📊 **热点词汇统计**\n"
+            stats_header += f"📊 **汪汪！发现这些热点词汇~**\n"
             stats_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             stats_header = f"📊 热点词汇统计\n\n"
@@ -2387,7 +2389,9 @@ def split_content_into_batches(
         else:
             mode_text = "暂无匹配的热点词汇"
         simple_content = f"━━━━━━━━━━━━━━━━━━━━\n"
+        simple_content += f"🐶 **汪汪~**\n"
         simple_content += f"📭 {mode_text}\n"
+        simple_content += f"（小狗狗今天没有发现新热点呢，再等等看吧~）\n"
         simple_content += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         final_content = base_header + simple_content + base_footer
         batches.append(final_content)
@@ -2424,10 +2428,12 @@ def split_content_into_batches(
                     word_header = (
                         f"🔥 {sequence_display} **{word}** : **{count}** 条\n"
                     )
+                    word_header += f"   （哇！这个好热门呢~）\n"
                 elif count >= 5:
                     word_header = (
                         f"📈 {sequence_display} **{word}** : **{count}** 条\n"
                     )
+                    word_header += f"   （这个也很火哦~）\n"
                 else:
                     word_header = f"📌 {sequence_display} **{word}** : {count} 条\n"
                 word_header += "\n"
@@ -2528,7 +2534,7 @@ def split_content_into_batches(
         new_header = ""
         if format_type == "wework":
             new_header = f"\n━━━━━━━━━━━━━━━━━━━━\n"
-            new_header += f"🆕 **本次新增热点新闻** (共 **{report_data['total_new_count']}** 条)\n"
+            new_header += f"🆕 **汪汪！发现新热点啦~** (共 **{report_data['total_new_count']}** 条)\n"
             new_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             new_header = (
@@ -2552,7 +2558,8 @@ def split_content_into_batches(
         for source_data in report_data["new_titles"]:
             source_header = ""
             if format_type == "wework":
-                source_header = f"📌 **{source_data['source_name']}** ({len(source_data['titles'])} 条)\n\n"
+                source_header = f"📌 **{source_data['source_name']}** ({len(source_data['titles'])} 条)\n"
+                source_header += f"   （小狗狗帮你整理好了~）\n\n"
             elif format_type == "telegram":
                 source_header = f"{source_data['source_name']} ({len(source_data['titles'])} 条):\n\n"
 
@@ -2632,7 +2639,8 @@ def split_content_into_batches(
         failed_header = ""
         if format_type == "wework":
             failed_header = f"\n━━━━━━━━━━━━━━━━━━━━\n"
-            failed_header += f"⚠️ **数据获取失败的平台**\n"
+            failed_header += f"⚠️ **汪汪...有些平台获取失败了**\n"
+            failed_header += f"（小狗狗会继续努力的~）\n"
             failed_header += f"━━━━━━━━━━━━━━━━━━━━\n\n"
         elif format_type == "telegram":
             failed_header = f"\n\n⚠️ 数据获取失败的平台：\n\n"
