@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-11T17:09:14.940395+08:00",
-  "total_titles_processed": 1659,
+  "generated_at": "2025-12-11T17:14:30.194911+08:00",
+  "total_titles_processed": 1708,
   "failed_sources": [],
   "trends": [
     {
@@ -47,6 +47,17 @@
           "time_info": "[10时00分 ~ 16时55分]"
         },
         {
+          "title": "特朗普：被扣押油轮上的石油归美国了",
+          "url": "https://www.toutiao.com/trending/7581744403334086710/",
+          "source": "今日头条",
+          "ranks": [
+            1
+          ],
+          "is_new": false,
+          "appearance_count": 6,
+          "time_info": "[16时36分 ~ 17时14分]"
+        },
+        {
           "title": "洪都拉斯现任总统：由于特朗普“干预选举”，此次大选“无效”",
           "url": "https://news.ifeng.com/c/8oyaoHd0S2N",
           "source": "凤凰网",
@@ -58,17 +69,6 @@
           "time_info": "[00时05分 ~ 07时23分]"
         },
         {
-          "title": "特朗普：被扣押油轮上的石油归美国了",
-          "url": "https://www.toutiao.com/trending/7581744403334086710/",
-          "source": "今日头条",
-          "ranks": [
-            1
-          ],
-          "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[16时36分 ~ 17时09分]"
-        },
-        {
           "title": "指望特朗普出面给日本帮腔，中国就会让步？日学者：大错特错",
           "url": "https://news.ifeng.com/c/8ozzAO4JqEe",
           "source": "凤凰网",
@@ -76,8 +76,8 @@
             5
           ],
           "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[16时54分 ~ 17时09分]"
+          "appearance_count": 5,
+          "time_info": "[16时54分 ~ 17时14分]"
         },
         {
           "title": "高市早苗求见特朗普",
@@ -149,6 +149,18 @@
           "time_info": "04时31分"
         },
         {
+          "title": "泰国总理回应特朗普：一通电话无法解决泰柬冲突",
+          "url": "https://news.ifeng.com/c/8ozyUBmNa9F",
+          "source": "凤凰网",
+          "ranks": [
+            9,
+            8
+          ],
+          "is_new": false,
+          "appearance_count": 5,
+          "time_info": "[16时54分 ~ 17时14分]"
+        },
+        {
           "title": "华纳收购案再迎变数 特朗普称CNN必须被出售",
           "url": "https://flash.jin10.com/detail/20251211055914043800",
           "source": "金十数据",
@@ -173,15 +185,18 @@
           "time_info": "[02时41分 ~ 03时23分]"
         },
         {
-          "title": "泰国总理回应特朗普：一通电话无法解决泰柬冲突",
-          "url": "https://news.ifeng.com/c/8ozyUBmNa9F",
-          "source": "凤凰网",
+          "title": "俄罗斯外长拉夫罗夫表示，俄方希望达成一份关于乌克兰问题的长期可持续和平的一揽子文件。 各方都应获得安全保障。 特朗普为解决冲突作出过切实努力。",
+          "url": "https://wallstreetcn.com/livenews/3019085",
+          "source": "华尔街见闻-快讯",
           "ranks": [
-            9
+            8,
+            18,
+            29,
+            30
           ],
           "is_new": false,
           "appearance_count": 4,
-          "time_info": "[16时54分 ~ 17时09分]"
+          "time_info": "[16时36分 ~ 17时14分]"
         },
         {
           "title": "“特朗普黄金卡”开始接受申请",
@@ -194,19 +209,6 @@
           "is_new": false,
           "appearance_count": 4,
           "time_info": "[07时22分 ~ 10时01分]"
-        },
-        {
-          "title": "俄罗斯外长拉夫罗夫表示，俄方希望达成一份关于乌克兰问题的长期可持续和平的一揽子文件。 各方都应获得安全保障。 特朗普为解决冲突作出过切实努力。",
-          "url": "https://wallstreetcn.com/livenews/3019085",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            8,
-            18,
-            29
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[16时36分 ~ 17时09分]"
         },
         {
           "title": "俄罗斯外长拉夫罗夫：美国总统特朗普为解决乌克兰冲突做出了真诚努力。",
@@ -581,7 +583,7 @@
     },
     {
       "keyword_group": "美股",
-      "match_count": 18,
+      "match_count": 19,
       "titles": [
         {
           "title": "美利率决议前摩根大通拖累美股，盘中美债转跌、加密货币拉升，白银首次突破60美元",
@@ -603,8 +605,8 @@
             2
           ],
           "is_new": false,
-          "appearance_count": 14,
-          "time_info": "[10时00分 ~ 17时09分]"
+          "appearance_count": 15,
+          "time_info": "[10时00分 ~ 17时14分]"
         },
         {
           "title": "美股收盘：标普500逼近历史新高 市场对未来更多宽松寄予希望",
@@ -636,11 +638,12 @@
           "url": "https://wallstreetcn.com/livenews/3019120",
           "source": "华尔街见闻-快讯",
           "ranks": [
-            4
+            4,
+            5
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "17时09分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[17时09分 ~ 17时14分]"
         },
         {
           "title": "区域银行ETF收涨超3.4%，在美联储降息日领跑美股行业ETF",
@@ -783,6 +786,17 @@
           "is_new": false,
           "appearance_count": 1,
           "time_info": "11时40分"
+        },
+        {
+          "title": "甲骨文(ORCL.N)带动美股AI股盘前走低，英伟达(NVDA.O)跌1.9%，美光科技(MU.O)跌2.1%，微软(MSFT.O)跌1.1%。",
+          "url": "https://flash.jin10.com/detail/20251211170906953800",
+          "source": "金十数据",
+          "ranks": [
+            10
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "17时14分"
         },
         {
           "title": "周三（12月10日）纽约尾盘，彭博谷物分类指数跌0.39%，报29.7937点。 CBOT玉米期货跌0.89%，CBOT小麦期货跌0.98%。 CBOT大豆期货涨0.44%，美股开盘以来持续反弹。",
@@ -999,8 +1013,8 @@
             3
           ],
           "is_new": false,
-          "appearance_count": 26,
-          "time_info": "[00时05分 ~ 17时09分]"
+          "appearance_count": 27,
+          "time_info": "[00时05分 ~ 17时14分]"
         }
       ]
     }
