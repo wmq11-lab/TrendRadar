@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-12-16T14:35:29.471679+08:00",
-  "total_titles_processed": 523,
+  "generated_at": "2025-12-16T20:45:58.443608+08:00",
+  "total_titles_processed": 766,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "谷歌 google gemini",
-      "match_count": 1,
+      "match_count": 2,
       "titles": [
         {
           "title": "“俄版谷歌”，正帮中国商人大赚",
@@ -14,9 +14,20 @@
           "ranks": [
             11
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
           "time_info": "14时35分"
+        },
+        {
+          "title": "加拿大蒙特利尔银行：将谷歌(GOOG.O)目标价从340美元上调至343美元。",
+          "url": "https://flash.jin10.com/detail/20251216195848833800",
+          "source": "金十数据",
+          "ranks": [
+            11
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "20时45分"
         }
       ]
     }
