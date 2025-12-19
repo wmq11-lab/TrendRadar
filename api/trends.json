@@ -1,8 +1,25 @@
 {
-  "generated_at": "2025-12-19T09:43:13.561469+08:00",
-  "total_titles_processed": 305,
+  "generated_at": "2025-12-19T14:33:33.415702+08:00",
+  "total_titles_processed": 529,
   "failed_sources": [],
   "trends": [
+    {
+      "keyword_group": "chatgpt openai",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "OpenAI最新估值或达8300亿美元 德国拟动用俄资产支持乌克兰 | 环球市场",
+          "url": "https://www.cls.cn/detail/2234101",
+          "source": "财联社热门",
+          "ranks": [
+            12
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "14时33分"
+        }
+      ]
+    },
     {
       "keyword_group": "LLM",
       "match_count": 1,
