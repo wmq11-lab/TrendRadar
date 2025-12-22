@@ -1,8 +1,36 @@
 {
-  "generated_at": "2025-12-22T09:48:16.236865+08:00",
-  "total_titles_processed": 303,
+  "generated_at": "2025-12-22T14:37:05.207506+08:00",
+  "total_titles_processed": 517,
   "failed_sources": [],
   "trends": [
+    {
+      "keyword_group": "谷歌 google gemini",
+      "match_count": 2,
+      "titles": [
+        {
+          "title": "a16z年度重磅报告：OpenAI艰难守擂，谷歌火力全开，用户只选一个",
+          "url": "https://wallstreetcn.com/articles/3761798",
+          "source": "华尔街见闻",
+          "ranks": [
+            8
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时36分 ~ 14时37分]"
+        },
+        {
+          "title": "“AI取代搜索”是伪命题？市场发现：谷歌才是对的！",
+          "url": "https://wallstreetcn.com/articles/3761792",
+          "source": "华尔街见闻",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时36分 ~ 14时37分]"
+        }
+      ]
+    },
     {
       "keyword_group": "chatgpt openai",
       "match_count": 1,
