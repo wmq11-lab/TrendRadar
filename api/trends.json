@@ -1,8 +1,25 @@
 {
-  "generated_at": "2025-12-29T09:52:28.940439+08:00",
-  "total_titles_processed": 313,
+  "generated_at": "2025-12-29T14:37:17.481520+08:00",
+  "total_titles_processed": 533,
   "failed_sources": [],
   "trends": [
+    {
+      "keyword_group": "谷歌 google gemini",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "巴菲特谢幕、OpenAI搅动万亿市值、谷歌强势崛起......2025全球十大商业事件盘点",
+          "url": "https://wallstreetcn.com/articles/3762142",
+          "source": "华尔街见闻",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时36分 ~ 14时37分]"
+        }
+      ]
+    },
     {
       "keyword_group": "chatgpt openai",
       "match_count": 1,
