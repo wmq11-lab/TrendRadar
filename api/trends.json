@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-11T14:33:49.675075+08:00",
-  "total_titles_processed": 502,
+  "generated_at": "2026-01-11T20:42:19.004926+08:00",
+  "total_titles_processed": 728,
   "failed_sources": [],
   "trends": [
     {
@@ -15,8 +15,8 @@
             21
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时54分 ~ 14时33分]"
+          "appearance_count": 5,
+          "time_info": "[09时54分 ~ 20时42分]"
         },
         {
           "title": "UP主解读DeepSeek进化史",
@@ -47,7 +47,7 @@
           "ranks": [
             10
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
           "time_info": "14时33分"
         }
