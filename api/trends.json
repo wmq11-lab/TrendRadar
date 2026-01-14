@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-01-14T09:50:40.836145+08:00",
-  "total_titles_processed": 305,
+  "generated_at": "2026-01-14T14:36:16.575718+08:00",
+  "total_titles_processed": 502,
   "failed_sources": [],
   "trends": [
+    {
+      "keyword_group": "谷歌 google gemini",
+      "match_count": 2,
+      "titles": [
+        {
+          "title": "UP主锐评苹果谷歌合作",
+          "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E9%94%90%E8%AF%84%E8%8B%B9%E6%9E%9C%E8%B0%B7%E6%AD%8C%E5%90%88%E4%BD%9C",
+          "source": "bilibili 热搜",
+          "ranks": [
+            6,
+            10
+          ],
+          "is_new": false,
+          "appearance_count": 3,
+          "time_info": "[09时50分 ~ 14时36分]"
+        },
+        {
+          "title": "Apple 芯片设计全球领先，为何大模型训练却认输外包给 Google？",
+          "url": "https://www.zhihu.com/question/1994310970621859099",
+          "source": "知乎",
+          "ranks": [
+            18
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时35分 ~ 14时36分]"
+        }
+      ]
+    },
     {
       "keyword_group": "DeepSeek",
       "match_count": 1,
@@ -11,23 +40,6 @@
           "title": "梁文锋署名新论文：给大模型配本“字典”，计算、记忆分家后智商爆表，剧透DeepSeek V4？",
           "url": "https://wallstreetcn.com/articles/3763151",
           "source": "华尔街见闻",
-          "ranks": [
-            6
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时50分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "谷歌 google gemini",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "UP主锐评苹果谷歌合作",
-          "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E9%94%90%E8%AF%84%E8%8B%B9%E6%9E%9C%E8%B0%B7%E6%AD%8C%E5%90%88%E4%BD%9C",
-          "source": "bilibili 热搜",
           "ranks": [
             6
           ],
