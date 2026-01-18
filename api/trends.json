@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-18T14:33:28.759301+08:00",
-  "total_titles_processed": 507,
+  "generated_at": "2026-01-18T20:41:31.477727+08:00",
+  "total_titles_processed": 730,
   "failed_sources": [],
   "trends": [
     {
@@ -12,11 +12,24 @@
           "url": "https://wallstreetcn.com/articles/3763533",
           "source": "华尔街见闻",
           "ranks": [
-            4
+            4,
+            2
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "14时33分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时33分 ~ 20时41分]"
+        },
+        {
+          "title": "马斯克以「构成欺诈」为由向 OpenAI 、微软索赔 1340 亿美元，具体是怎么回事？他能索赔成功吗？",
+          "url": "https://www.zhihu.com/question/1995914466735388213",
+          "source": "知乎",
+          "ranks": [
+            15,
+            16
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时33分 ~ 20时41分]"
         },
         {
           "title": "ChatGPT 官宣将加入广告，怎样看待这一决定？对使用体验影响有多大？",
@@ -39,17 +52,23 @@
           "is_new": false,
           "appearance_count": 1,
           "time_info": "09时53分"
-        },
+        }
+      ]
+    },
+    {
+      "keyword_group": "DeepSeek",
+      "match_count": 1,
+      "titles": [
         {
-          "title": "马斯克以「构成欺诈」为由向 OpenAI 、微软索赔 1340 亿美元，具体是怎么回事？他能索赔成功吗？",
-          "url": "https://www.zhihu.com/question/1995914466735388213",
-          "source": "知乎",
+          "title": "没有商业模式--DeepSeek最坚固的“护城河”",
+          "url": "https://wallstreetcn.com/articles/3763534",
+          "source": "华尔街见闻",
           "ranks": [
-            15
+            6
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "14时33分"
+          "time_info": "20时41分"
         }
       ]
     },
