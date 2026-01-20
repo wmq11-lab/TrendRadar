@@ -1,68 +1,22 @@
 {
-  "generated_at": "2026-01-19T20:52:22.151037+08:00",
-  "total_titles_processed": 746,
+  "generated_at": "2026-01-20T09:47:41.579171+08:00",
+  "total_titles_processed": 304,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "chatgpt openai",
-      "match_count": 2,
+      "match_count": 1,
       "titles": [
         {
-          "title": "编程从此不再有门槛！Claude Code火爆出圈，接近“ChatGPT的横空出世”",
-          "url": "https://wallstreetcn.com/articles/3763533",
-          "source": "华尔街见闻",
-          "ranks": [
-            1
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时52分"
-        },
-        {
-          "title": "OpenAI终向广告“妥协”，GEO逻辑被验证无误了吗？",
-          "url": "https://www.cls.cn/detail/2261328",
+          "title": "OpenAI高管：首款硬件设备有望于2026年下半年亮相",
+          "url": "https://www.cls.cn/detail/2262848",
           "source": "财联社热门",
           "ranks": [
-            12
+            9
           ],
           "is_new": false,
           "appearance_count": 1,
-          "time_info": "09时52分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "DeepSeek",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "没有商业模式--DeepSeek最坚固的“护城河”",
-          "url": "https://wallstreetcn.com/articles/3763534",
-          "source": "华尔街见闻",
-          "ranks": [
-            6,
-            5
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时52分 ~ 14时40分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "Claude",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "开年最惨！美国软件股崩了，因为Claude Code太火了",
-          "url": "https://wallstreetcn.com/articles/3763553",
-          "source": "华尔街见闻",
-          "ranks": [
-            4
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[14时40分 ~ 20时52分]"
+          "time_info": "09时47分"
         }
       ]
     }
