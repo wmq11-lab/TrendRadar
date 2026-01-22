@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-21T20:52:30.765150+08:00",
-  "total_titles_processed": 764,
+  "generated_at": "2026-01-22T09:51:28.625075+08:00",
+  "total_titles_processed": 301,
   "failed_sources": [],
   "trends": [
     {
@@ -12,12 +12,11 @@
           "url": "https://search.bilibili.com/all?keyword=DeepSeek%20Model%201%E6%82%84%E7%84%B6%E7%8E%B0%E8%BA%AB",
           "source": "bilibili 热搜",
           "ranks": [
-            9,
-            14
+            8
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[14时38分 ~ 20时52分]"
+          "appearance_count": 1,
+          "time_info": "09时51分"
         }
       ]
     }
