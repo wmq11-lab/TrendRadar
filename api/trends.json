@@ -1,26 +1,8 @@
 {
-  "generated_at": "2026-01-23T20:50:09.620410+08:00",
-  "total_titles_processed": 768,
+  "generated_at": "2026-01-24T09:44:29.527628+08:00",
+  "total_titles_processed": 315,
   "failed_sources": [],
   "trends": [
-    {
-      "keyword_group": "谷歌 google gemini",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "为什么谷歌 AI 掌门人认为字节是中国最具实力的 AI 公司？",
-          "url": "https://www.zhihu.com/question/1997802145714569913",
-          "source": "知乎",
-          "ranks": [
-            19,
-            17
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[20时48分 ~ 20时50分]"
-        }
-      ]
-    },
     {
       "keyword_group": "Claude",
       "match_count": 1,
@@ -30,11 +12,11 @@
           "url": "https://wallstreetcn.com/articles/3764001",
           "source": "华尔街见闻",
           "ranks": [
-            7
+            2
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[20时48分 ~ 20时50分]"
+          "appearance_count": 1,
+          "time_info": "09时44分"
         }
       ]
     }
