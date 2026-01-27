@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-01-26T20:51:11.196160+08:00",
-  "total_titles_processed": 756,
+  "generated_at": "2026-01-27T09:53:39.055497+08:00",
+  "total_titles_processed": 297,
   "failed_sources": [],
   "trends": [
     {
-      "keyword_group": "DeepSeek",
+      "keyword_group": "谷歌 google gemini",
       "match_count": 1,
       "titles": [
         {
-          "title": "知情人士透露 deepseek 即将发布 V4 新模型，不知道各位有什么看法？",
-          "url": "https://www.zhihu.com/question/1993355026530317494",
-          "source": "知乎",
+          "title": "拳打亚马逊、脚踢谷歌TPU 微软发布新一代AI加速器Maia 200",
+          "url": "https://www.cls.cn/detail/2270429",
+          "source": "财联社热门",
           "ranks": [
-            9
+            11
           ],
           "is_new": false,
           "appearance_count": 1,
-          "time_info": "14时39分"
+          "time_info": "09时53分"
         }
       ]
     }
