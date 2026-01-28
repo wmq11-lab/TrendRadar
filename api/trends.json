@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-28T09:49:45.459274+08:00",
-  "total_titles_processed": 312,
+  "generated_at": "2026-01-28T14:38:22.085961+08:00",
+  "total_titles_processed": 534,
   "failed_sources": [],
   "trends": [
     {
@@ -23,11 +23,12 @@
           "url": "https://search.bilibili.com/all?keyword=%E8%AF%A6%E8%A7%A3DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8BOCR2",
           "source": "bilibili 热搜",
           "ranks": [
-            10
+            10,
+            25
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时49分"
+          "appearance_count": 3,
+          "time_info": "[09时49分 ~ 14时38分]"
         },
         {
           "title": "DeepSeek开源OCR 2模型",
@@ -44,8 +45,19 @@
     },
     {
       "keyword_group": "chatgpt openai",
-      "match_count": 2,
+      "match_count": 3,
       "titles": [
+        {
+          "title": "前西班牙主帅因过度依赖 ChatGPT 做决策、战绩惨淡被解雇，如何看待此事？",
+          "url": "https://www.zhihu.com/question/1999186592472986900",
+          "source": "知乎",
+          "ranks": [
+            2
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时37分 ~ 14时38分]"
+        },
         {
           "title": "软银拟向OpenAI追投至多300亿美元",
           "url": "https://flash.jin10.com/detail/20260128085403401800",
@@ -79,11 +91,29 @@
           "url": "https://wallstreetcn.com/articles/3764292",
           "source": "华尔街见闻",
           "ranks": [
-            7
+            7,
+            6
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时49分"
+          "appearance_count": 3,
+          "time_info": "[09时49分 ~ 14时38分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "美元",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "美元指数跌至近四年新低 特朗普政策不确定性引爆市场焦虑",
+          "url": "https://www.cls.cn/detail/2271889",
+          "source": "财联社热门",
+          "ranks": [
+            11
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[14时37分 ~ 14时38分]"
         }
       ]
     }
