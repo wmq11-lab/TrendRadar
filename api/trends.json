@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-02T10:11:05.018007+08:00",
-  "total_titles_processed": 306,
+  "generated_at": "2026-02-02T15:04:16.983941+08:00",
+  "total_titles_processed": 531,
   "failed_sources": [],
   "trends": [
     {
@@ -12,11 +12,29 @@
           "url": "https://wallstreetcn.com/articles/3764656",
           "source": "华尔街见闻",
           "ranks": [
-            3
+            3,
+            5
+          ],
+          "is_new": false,
+          "appearance_count": 4,
+          "time_info": "[10时10分 ~ 15时04分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "chatgpt openai",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "黄仁勋澄清：对OpenAI的千亿投资\"从未承诺\"，英伟达将逐步评估",
+          "url": "https://wallstreetcn.com/articles/3764694",
+          "source": "华尔街见闻",
+          "ranks": [
+            9
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[10时10分 ~ 10时11分]"
+          "time_info": "[15时03分 ~ 15时04分]"
         }
       ]
     }
