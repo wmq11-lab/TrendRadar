@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-05T10:05:44.870054+08:00",
-  "total_titles_processed": 305,
+  "generated_at": "2026-02-05T15:02:13.087557+08:00",
+  "total_titles_processed": 521,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "谷歌 google gemini",
-      "match_count": 2,
+      "match_count": 3,
       "titles": [
         {
           "title": "谷歌All in AI：Q4云收入猛增48%，今年支出指引接近翻倍大超预期，盘后巨震 | 财报见闻",
@@ -15,19 +15,31 @@
             5
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时05分"
+          "appearance_count": 3,
+          "time_info": "[10时05分 ~ 15时02分]"
         },
         {
           "title": "谷歌ALL in AI！Q4云业务激增48% 2026“烧钱”速度翻倍",
           "url": "https://www.cls.cn/detail/2281032",
           "source": "财联社热门",
           "ranks": [
+            13,
+            6
+          ],
+          "is_new": false,
+          "appearance_count": 3,
+          "time_info": "[10时05分 ~ 15时02分]"
+        },
+        {
+          "title": "谷歌财报电话会实录：首要任务是提高算力 否认“AI取代软件”担忧",
+          "url": "https://www.cls.cn/detail/2281205",
+          "source": "财联社热门",
+          "ranks": [
             13
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时05分"
+          "appearance_count": 2,
+          "time_info": "[15时01分 ~ 15时02分]"
         }
       ]
     }
