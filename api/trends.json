@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-02-08T14:52:02.755772+08:00",
-  "total_titles_processed": 485,
+  "generated_at": "2026-02-08T20:52:07.084208+08:00",
+  "total_titles_processed": 712,
   "failed_sources": [],
-  "trends": [],
+  "trends": [
+    {
+      "keyword_group": "谷歌 google gemini",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "大手笔AI投资之后：亚马逊、谷歌、Meta要花光现金流了？",
+          "url": "https://wallstreetcn.com/articles/3765245",
+          "source": "华尔街见闻",
+          "ranks": [
+            6
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[20时51分 ~ 20时52分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "chatgpt openai",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "OpenAI第一款硬件要来了，但可能“没那么AI”?",
+          "url": "https://wallstreetcn.com/articles/3765244",
+          "source": "华尔街见闻",
+          "ranks": [
+            10
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[20时51分 ~ 20时52分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "美元",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "伊拉克将3月份发往亚洲的巴士拉中质原油官方销售价设定为较阿曼/迪拜均价贴水1.70美元/桶。 伊拉克将3月份发往欧洲的巴士拉中质原油官方销售价设定为较即期布伦特价格贴水3.55美元/桶。 伊拉克将3月份发往北美及南美的巴士拉中质原油官方销售价设定为较阿格斯含硫原油指数（ASCI）贴水1.30美元/桶。",
+          "url": "https://wallstreetcn.com/livenews/3051817",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            10
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "20时52分"
+        }
+      ]
+    }
+  ],
   "report_image_url": "https://joyce677.github.io/TrendRadar/img/news.jpg"
 }
