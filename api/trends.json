@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-13T15:01:50.443420+08:00",
-  "total_titles_processed": 513,
+  "generated_at": "2026-02-13T21:01:53.983761+08:00",
+  "total_titles_processed": 740,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "DeepSeek",
-      "match_count": 7,
+      "match_count": 9,
       "titles": [
         {
           "title": "DeepSeek变冷淡了",
@@ -17,6 +17,17 @@
           "is_new": false,
           "appearance_count": 1,
           "time_info": "10时14分"
+        },
+        {
+          "title": "DeepSeek 更新后被吐槽变冷变傻，你感受到了吗？为什么会出现这种情况？",
+          "url": "https://www.zhihu.com/question/2005557043939993512",
+          "source": "知乎",
+          "ranks": [
+            4
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "21时01分"
         },
         {
           "title": "Deepseek被指变冷淡了",
@@ -35,11 +46,12 @@
           "source": "bilibili 热搜",
           "ranks": [
             15,
-            14
+            14,
+            29
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时14分 ~ 15时01分]"
+          "appearance_count": 3,
+          "time_info": "[10时14分 ~ 21时01分]"
         },
         {
           "title": "UP主实测DeepSeek新模型",
@@ -54,13 +66,24 @@
           "time_info": "[10时14分 ~ 15时01分]"
         },
         {
+          "title": "DeepSeek：正测试新的长文本模型结构，支持1M上下文",
+          "url": "https://wallstreetcn.com/livenews/3055185",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            15
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "21时01分"
+        },
+        {
           "title": "OpenAI指责DeepSeek“抄袭”背后",
           "url": "https://www.toutiao.com/trending/7606207773960834579/",
           "source": "今日头条",
           "ranks": [
             18
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
           "time_info": "15时01分"
         },
@@ -71,7 +94,7 @@
           "ranks": [
             29
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
           "time_info": "15时01分"
         },
@@ -82,7 +105,7 @@
           "ranks": [
             30
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
           "time_info": "15时01分"
         }
