@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-02-24T21:07:32.437362+08:00",
-  "total_titles_processed": 742,
+  "generated_at": "2026-02-25T10:09:56.332925+08:00",
+  "total_titles_processed": 311,
   "failed_sources": [],
   "trends": [
     {
-      "keyword_group": "Claude",
+      "keyword_group": "谷歌 google gemini",
       "match_count": 1,
       "titles": [
         {
-          "title": "就在今晚！软件股再遭打击？Anthropic将直播展示Claude最新功能",
-          "url": "https://wallstreetcn.com/articles/3766010",
-          "source": "华尔街见闻",
+          "title": "谷歌宣布将新建数据中心：承诺电费全包不涨价 绿电+储能齐推进",
+          "url": "https://www.cls.cn/detail/2294085",
+          "source": "财联社热门",
           "ranks": [
-            9
+            7
           ],
-          "is_new": true,
+          "is_new": false,
           "appearance_count": 1,
-          "time_info": "21时07分"
+          "time_info": "10时09分"
         }
       ]
     }
