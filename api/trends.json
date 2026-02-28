@@ -1,45 +1,44 @@
 {
-  "generated_at": "2026-02-27T21:02:05.539114+08:00",
-  "total_titles_processed": 749,
+  "generated_at": "2026-02-28T09:54:38.990395+08:00",
+  "total_titles_processed": 315,
   "failed_sources": [],
   "trends": [
     {
-      "keyword_group": "谷歌 google gemini",
+      "keyword_group": "chatgpt openai",
       "match_count": 3,
       "titles": [
         {
-          "title": "谷歌Nano Banana 2亮相：专业能力全面下放 成本腰斩一半",
-          "url": "https://www.cls.cn/detail/2296526",
+          "title": "估值7300亿美元！OpenAI完成1100亿美元融资，亚马逊投了500亿",
+          "url": "https://wallstreetcn.com/articles/3766389",
+          "source": "华尔街见闻",
+          "ranks": [
+            6
+          ],
+          "is_new": false,
+          "appearance_count": 1,
+          "time_info": "09时54分"
+        },
+        {
+          "title": "亚马逊、英伟达和软银豪掷1100亿美元 OpenAI估值冲至7300亿美元",
+          "url": "https://www.cls.cn/detail/2297763",
           "source": "财联社热门",
           "ranks": [
-            12,
             11
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时04分 ~ 14时56分]"
+          "appearance_count": 1,
+          "time_info": "09时54分"
         },
         {
-          "title": "谷歌(GOOG.O)和OpenAI的员工正在推动限制军事人工智能。",
-          "url": "https://flash.jin10.com/detail/20260227094411984800",
+          "title": "一位消息人士透露，五角大楼已同意OpenAI制定的在保密环境下安全部署其技术的规则，但尚未签署任何合同。",
+          "url": "https://flash.jin10.com/detail/20260228080935525800",
           "source": "金十数据",
           "ranks": [
-            8
+            21
           ],
           "is_new": false,
           "appearance_count": 1,
-          "time_info": "10时04分"
-        },
-        {
-          "title": "谷歌的“豆包手机”来了？",
-          "url": "https://news.ifeng.com/c/8r5Hb8yN4Fm",
-          "source": "凤凰网",
-          "ranks": [
-            12
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "14时56分"
+          "time_info": "09时54分"
         }
       ]
     },
@@ -48,32 +47,15 @@
       "match_count": 1,
       "titles": [
         {
-          "title": "如何评价消息称 DeepSeek V4 打破常规优先适配华为，冷落英伟达 AMD？会带来什么影响？",
-          "url": "https://www.zhihu.com/question/2010465986483025153",
-          "source": "知乎",
+          "title": "DeepSeek将于下周发布其最新的大型语言模型V4。这是一款具有图片、视频和文本生成功能的“多模态”模型。",
+          "url": "https://flash.jin10.com/detail/20260228092015676800",
+          "source": "金十数据",
           "ranks": [
-            11
+            8
           ],
           "is_new": false,
           "appearance_count": 1,
-          "time_info": "10时04分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "chatgpt openai",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "OpenAI向加拿大官员作出多项承诺，将加强安全机制",
-          "url": "https://wallstreetcn.com/livenews/3059885",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            21
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时04分"
+          "time_info": "09时54分"
         }
       ]
     }
