@@ -1,39 +1,67 @@
 {
-  "generated_at": "2026-03-04T20:58:09.675106+08:00",
-  "total_titles_processed": 766,
+  "generated_at": "2026-03-05T10:06:26.459573+08:00",
+  "total_titles_processed": 300,
   "failed_sources": [],
   "trends": [
     {
-      "keyword_group": "chatgpt openai",
-      "match_count": 1,
+      "keyword_group": "Claude",
+      "match_count": 2,
       "titles": [
         {
-          "title": "OpenAI考虑为北约机密网络提供合约",
-          "url": "https://flash.jin10.com/detail/20260304092203004800",
-          "source": "金十数据",
+          "title": "美军被曝使用Claude AI空袭伊朗，负责情报评估与目标识别，专家发出严厉警告",
+          "url": "https://wallstreetcn.com/articles/3766696",
+          "source": "华尔街见闻",
           "ranks": [
-            20
+            10
           ],
           "is_new": false,
           "appearance_count": 1,
-          "time_info": "10时03分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "Claude",
-      "match_count": 1,
-      "titles": [
+          "time_info": "10时06分"
+        },
         {
           "title": "AWS 阿联酋数据中心遭物体撞击后起火，同时 Claude 全球宕机，两者有关系吗？如何看待这一风波？",
           "url": "https://www.zhihu.com/question/2011731606025499798",
           "source": "知乎",
           "ranks": [
-            10
+            14
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[20时57分 ~ 20时58分]"
+          "appearance_count": 1,
+          "time_info": "10时06分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "DeepSeek",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "国内目前使用的 AI 智能问答软件，豆包、通义千问、元宝、 kimi 、 deepseek，哪个好用？",
+          "url": "https://www.zhihu.com/question/1922608207504867947",
+          "source": "知乎",
+          "ranks": [
+            2
+          ],
+          "is_new": false,
+          "appearance_count": 1,
+          "time_info": "10时06分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "chatgpt openai",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "据The Information：OpenAI选定律师事务所Cooley和Wachtell为IPO做准备。",
+          "url": "https://flash.jin10.com/detail/20260305095057425800",
+          "source": "金十数据",
+          "ranks": [
+            5
+          ],
+          "is_new": false,
+          "appearance_count": 1,
+          "time_info": "10时06分"
         }
       ]
     }
