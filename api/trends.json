@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-06T10:06:09.850821+08:00",
-  "total_titles_processed": 314,
+  "generated_at": "2026-03-06T14:52:10.794498+08:00",
+  "total_titles_processed": 543,
   "failed_sources": [],
   "trends": [
     {
@@ -23,11 +23,12 @@
           "url": "https://wallstreetcn.com/articles/3766836",
           "source": "华尔街见闻",
           "ranks": [
-            8
+            8,
+            7
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时05分 ~ 10时06分]"
+          "appearance_count": 4,
+          "time_info": "[10时05分 ~ 14时52分]"
         },
         {
           "title": "号称最强模型 OpenAI GPT-5.4发布",
