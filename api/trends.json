@@ -1,78 +1,62 @@
 {
-  "generated_at": "2026-03-05T21:02:39.599102+08:00",
-  "total_titles_processed": 755,
+  "generated_at": "2026-03-06T10:06:09.850821+08:00",
+  "total_titles_processed": 314,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "chatgpt openai",
-      "match_count": 2,
+      "match_count": 3,
       "titles": [
         {
-          "title": "据The Information：OpenAI选定律师事务所Cooley和Wachtell为IPO做准备。",
-          "url": "https://flash.jin10.com/detail/20260305095057425800",
-          "source": "金十数据",
+          "title": "OpenAI发布GPT-5.4",
+          "url": "https://search.bilibili.com/all?keyword=OpenAI%E5%8F%91%E5%B8%83GPT-5.4",
+          "source": "bilibili 热搜",
           "ranks": [
             5
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时06分"
+          "appearance_count": 2,
+          "time_info": "[10时05分 ~ 10时06分]"
         },
         {
-          "title": "黄仁勋：对OpenAI的300亿美元投资“可能是最后一次”",
-          "url": "https://www.cls.cn/detail/2303137",
-          "source": "财联社热门",
-          "ranks": [
-            13
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "14时54分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "Claude",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "美军被曝使用Claude AI空袭伊朗，负责情报评估与目标识别，专家发出严厉警告",
-          "url": "https://wallstreetcn.com/articles/3766696",
+          "title": "OpenAI发布最强专业模型GPT-5.4，自动操作电脑，插件支持AI玩转Excel和金融分析",
+          "url": "https://wallstreetcn.com/articles/3766836",
           "source": "华尔街见闻",
           "ranks": [
-            10
+            8
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时06分"
+          "appearance_count": 2,
+          "time_info": "[10时05分 ~ 10时06分]"
         },
         {
-          "title": "AWS 阿联酋数据中心遭物体撞击后起火，同时 Claude 全球宕机，两者有关系吗？如何看待这一风波？",
-          "url": "https://www.zhihu.com/question/2011731606025499798",
-          "source": "知乎",
+          "title": "号称最强模型 OpenAI GPT-5.4发布",
+          "url": "https://www.baidu.com/s?wd=%E5%8F%B7%E7%A7%B0%E6%9C%80%E5%BC%BA%E6%A8%A1%E5%9E%8B+OpenAI+GPT-5.4%E5%8F%91%E5%B8%83",
+          "source": "百度热搜",
           "ranks": [
-            14
+            19
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时06分"
+          "appearance_count": 2,
+          "time_info": "[10时05分 ~ 10时06分]"
         }
       ]
     },
     {
-      "keyword_group": "DeepSeek",
+      "keyword_group": "Qwen",
       "match_count": 1,
       "titles": [
         {
-          "title": "国内目前使用的 AI 智能问答软件，豆包、通义千问、元宝、 kimi 、 deepseek，哪个好用？",
-          "url": "https://www.zhihu.com/question/1922608207504867947",
+          "title": "如何看待林俊旸和他所带领开发的 Qwen 系列模型对行业的贡献？",
+          "url": "https://www.zhihu.com/question/2012928663889338822",
           "source": "知乎",
           "ranks": [
-            2
+            14,
+            20
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时06分"
+          "appearance_count": 2,
+          "time_info": "[10时05分 ~ 10时06分]"
         }
       ]
     }
