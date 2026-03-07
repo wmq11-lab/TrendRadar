@@ -1,64 +1,22 @@
 {
-  "generated_at": "2026-03-06T20:57:39.600507+08:00",
-  "total_titles_processed": 770,
+  "generated_at": "2026-03-07T09:58:45.720784+08:00",
+  "total_titles_processed": 314,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "chatgpt openai",
-      "match_count": 3,
-      "titles": [
-        {
-          "title": "OpenAI发布最强专业模型GPT-5.4，自动操作电脑，插件支持AI玩转Excel和金融分析",
-          "url": "https://wallstreetcn.com/articles/3766836",
-          "source": "华尔街见闻",
-          "ranks": [
-            8,
-            7,
-            5
-          ],
-          "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[10时05分 ~ 20时57分]"
-        },
-        {
-          "title": "OpenAI发布GPT-5.4",
-          "url": "https://search.bilibili.com/all?keyword=OpenAI%E5%8F%91%E5%B8%83GPT-5.4",
-          "source": "bilibili 热搜",
-          "ranks": [
-            5
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时05分 ~ 10时06分]"
-        },
-        {
-          "title": "号称最强模型 OpenAI GPT-5.4发布",
-          "url": "https://www.baidu.com/s?wd=%E5%8F%B7%E7%A7%B0%E6%9C%80%E5%BC%BA%E6%A8%A1%E5%9E%8B+OpenAI+GPT-5.4%E5%8F%91%E5%B8%83",
-          "source": "百度热搜",
-          "ranks": [
-            19
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时05分 ~ 10时06分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "Qwen",
       "match_count": 1,
       "titles": [
         {
-          "title": "如何看待林俊旸和他所带领开发的 Qwen 系列模型对行业的贡献？",
-          "url": "https://www.zhihu.com/question/2012928663889338822",
-          "source": "知乎",
+          "title": "甲骨文与OpenAI或放弃扩建得州大型AI数据中心",
+          "url": "https://flash.jin10.com/detail/20260307080857687800",
+          "source": "金十数据",
           "ranks": [
-            14,
-            20
+            27
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时05分 ~ 10时06分]"
+          "appearance_count": 1,
+          "time_info": "09时58分"
         }
       ]
     }
