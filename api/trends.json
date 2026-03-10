@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-03-10T14:52:37.204747+08:00",
-  "total_titles_processed": 510,
+  "generated_at": "2026-03-10T21:02:49.883328+08:00",
+  "total_titles_processed": 741,
   "failed_sources": [],
-  "trends": [],
+  "trends": [
+    {
+      "keyword_group": "谷歌 google gemini",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "据AXIOS网站：由谷歌和特斯拉等公司组成的联盟将通过挖掘未充分利用的电网容量来解决能源可负担性问题。",
+          "url": "https://flash.jin10.com/detail/20260310205317042800",
+          "source": "金十数据",
+          "ranks": [
+            3
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "21时02分"
+        }
+      ]
+    }
+  ],
   "report_image_url": "https://joyce677.github.io/TrendRadar/img/news.jpg"
 }
