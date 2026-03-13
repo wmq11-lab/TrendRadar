@@ -1,8 +1,6 @@
-DeepSeek
-
-Qwen
-
 测试开发
+
+AI测试开发
 
 谷歌
 google
@@ -10,9 +8,6 @@ gemini
 
 chatgpt
 openai
-
-美元
-+指数
 
 Claude
 
