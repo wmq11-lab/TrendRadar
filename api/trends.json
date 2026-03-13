@@ -1,56 +1,22 @@
 {
-  "generated_at": "2026-03-12T21:03:03.664657+08:00",
-  "total_titles_processed": 752,
+  "generated_at": "2026-03-13T10:05:37.053304+08:00",
+  "total_titles_processed": 303,
   "failed_sources": [],
   "trends": [
     {
-      "keyword_group": "DeepSeek",
+      "keyword_group": "Claude",
       "match_count": 1,
       "titles": [
         {
-          "title": "如何评价 openrouter 上疑似 deepseek V4 的匿名模型 Hunter Alpha ？",
-          "url": "https://www.zhihu.com/question/2015404541256959842",
+          "title": "GitHub Copilot 、 Cursor 、 CodeX 与 Claude Code，我究竟要为谁付费？",
+          "url": "https://www.zhihu.com/question/1963698332040929828",
           "source": "知乎",
           "ranks": [
-            19
+            14
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[21时02分 ~ 21时03分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "谷歌 google gemini",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "谷歌：沉浸式导航今日起在美国全面上线，未来几个月将逐步扩大覆盖范围。",
-          "url": "https://flash.jin10.com/detail/20260312203342460800",
-          "source": "金十数据",
-          "ranks": [
-            12
-          ],
-          "is_new": true,
           "appearance_count": 1,
-          "time_info": "21时03分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "美元",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "美国经济数据公布后，现货黄金、美元指数DXY暂时波动不大。",
-          "url": "https://flash.jin10.com/detail/20260312203103505800",
-          "source": "金十数据",
-          "ranks": [
-            19
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "21时03分"
+          "time_info": "10时05分"
         }
       ]
     }
